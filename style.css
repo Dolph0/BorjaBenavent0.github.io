@@ -1,9 +1,8 @@
 body, html {
-    height: 100svh;
+    height: calc(100% - Xpx); 
     margin: 0;
     overflow: hidden;
     color: white;
-    height: -webkit-fill-available;
 
 }
 
