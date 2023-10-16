@@ -1,8 +1,10 @@
 body, html {
-    height: 100%;
+    height: 100svh;
     margin: 0;
     overflow: hidden;
     color: white;
+    height: -webkit-fill-available;
+
 }
 
 video {
@@ -49,8 +51,8 @@ main {
 
 } 
 footer{
-    height: 2rem;
-    padding: 3rem 1rem;
+    min-height: 1.5rem;
+    padding: 0.7rem 1rem;
     text-align: center;
     opacity: 0.3;
 }
