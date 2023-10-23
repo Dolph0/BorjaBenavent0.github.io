@@ -3,6 +3,10 @@ const llamada = document.getElementById("llamada");
 let visible = false;
 const arrow = document.getElementById("arrow");
 const video = document.getElementById("video");
+const llamar = document.getElementById("llamar");
+const iconoLlamada = document.getElementById("iconoLlamada");
+
+
 
 
 const videos = ["vid/CAAMWEB.MP4", "vid/GCWEB.MP4", "vid/LOOKINWEB.mov"];
@@ -23,19 +27,11 @@ function esTelefonoMovil() {
   }
   
   if (esTelefonoMovil()) {
-    llamada.innerHTML = `
-        <li class="menu-item" id="llamada">
-            <a href="tel:+627094473" target="_blank" rel="noopener noreferrer">
-                <img src="img/llamada-telefonica (1).png" alt="teléfono" class="icon">
-            </a>    
-        </li> 
-    `;
+        numero.style.display = "none";
+
   } else {
-    llamada.innerHTML = `
-        <li class="menu-item" id="llamada">
-            <img src="img/llamada-telefonica (1).png" alt="teléfono" class="icon">
-        </li>
-    `;
+    llamar.style.display = "none";
+    iconoLlamada.style.display = "block";
 
     llamada.addEventListener("click", function() {
         visible = !visible;

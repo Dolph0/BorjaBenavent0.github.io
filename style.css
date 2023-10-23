@@ -38,13 +38,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 2rem 3rem; */
     padding: 2rem 3rem;
     height: 6rem;
 }
 .menu-list li{
     display: inline-block;
-    padding: 0px 0.5rem;
+    padding: 0px 0.6rem;
 }
 main {
     flex: 1;
@@ -69,7 +68,7 @@ footer{
     
 }
 .arrow{
-    margin-right: 2.5rem;
+    margin-right: 2rem;
     position: absolute;
     right: 0;
     bottom: 50%;
@@ -124,6 +123,9 @@ h3{
     right: 0;
     margin-right: 3rem;
     display: none; 
+}
+#iconoLlamada{
+    display: none;
 }
 @media(max-width: 800px) {
     #logo{
