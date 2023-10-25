@@ -9,7 +9,7 @@ const iconoLlamada = document.getElementById("iconoLlamada");
 
 
 
-const videos = ["vid/CAAMWEB.MP4", "vid/GCWEB.MP4", "vid/LOOKINWEB.MOV"];
+const videos = ["vid/CAAMWEB.MP4", "vid/GCWEB.MP4", "vid/LOOKINWEB.mov"];
 let currentVideoIndex = 1; // Inicializar con la fuente "vid/GCWEB.MP4"
 
 arrow.addEventListener("click", function() {
