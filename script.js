@@ -2,7 +2,7 @@ const numero = document.getElementById("numero");
 const llamada = document.getElementById("llamada");
 let visible = false;
 const arrow = document.getElementById("arrow");
-const video = document.getElementById("video");
+const videoBackground = document.getElementById("videoBackground");
 const llamar = document.getElementById("llamar");
 const iconoLlamada = document.getElementById("iconoLlamada");
 
@@ -15,7 +15,7 @@ let currentVideoIndex = 1; // Inicializar con la fuente "vid/GCWEB.MP4"
 arrow.addEventListener("click", function() {
     // Cambiar al siguiente video en el array
     currentVideoIndex = (currentVideoIndex + 1) % videos.length;
-    video.src = videos[currentVideoIndex];
+    videoBackground.src = videos[currentVideoIndex];
 });
 
 
