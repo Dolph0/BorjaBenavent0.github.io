@@ -5,6 +5,10 @@ const arrow = document.getElementById("arrow");
 const videoBackground = document.getElementById("videoBackground");
 const llamar = document.getElementById("llamar");
 const iconoLlamada = document.getElementById("iconoLlamada");
+// const leftArrow = document.getElementById("leftArrow");
+// const rightArrow = document.getElementById("rightArrow");
+// const reelVideo = document.getElementById("videoSocial");
+
 
 
 
@@ -44,6 +48,18 @@ function esTelefonoMovil() {
     });
   }
 
+
+  $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
+
+
+//   const socialVideos = ["vid/ReelWEb.mov", "vid/ReelWeb1.mov", "vid/ReelWeb2.mov"];
+// let currentVideoIndexSocial = 1;
+
+// rightArrow.addEventListener("click", function() {
+//     // Cambiar al siguiente video en el array
+//     currentVideoIndexSocial = (currentVideoIndexSocial + 1) % socialVideos.length;
+//     reelVideo.src = socialVideos[currentVideoIndexSocial];
+// });
   
 
 
