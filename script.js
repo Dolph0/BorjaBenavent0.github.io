@@ -49,7 +49,6 @@ function esTelefonoMovil() {
   }
 
 
-  $(document).ready(function(){$("img").click(function(){this.requestFullscreen()})});
 
 
 //   const socialVideos = ["vid/ReelWEb.mov", "vid/ReelWeb1.mov", "vid/ReelWeb2.mov"];
