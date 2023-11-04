@@ -129,7 +129,9 @@ h3{
 }
 
 
-
+#socialBody{
+    overflow: auto;
+}
 #socialPage {
     position: relative;
     z-index: 1; 
@@ -138,10 +140,28 @@ h3{
     height: 100vh;
     height: 100dvh;
     background-color: rgba(0, 0, 0, 0.925);
+    overflow: auto;
 }
 
 #socialMain{
-    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+#socialMediaContent{
+    background-color: black;
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.socialH1{
+    font-size: 3.5em;
 }
 
 #videoSocial{
@@ -149,11 +169,11 @@ h3{
     max-height: 26rem;
     margin: 1rem;
     border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
 }
 #socialVideoContainer{
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     margin: 0 1rem;
     align-items: center;
@@ -166,21 +186,31 @@ h3{
 .socialArrow:hover{
     transform: scale(1.2);
 }
+#gallery{
+    margin-top: 5em;
+    background-color: black;
+    border-radius: 30px;
+    padding: 2em 3em;
+}
 #gridPic{
-    position: absolute;
-    right: 0;
     display: grid;
-    gap: 0.2rem;
+    gap: 0.6rem;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 3.5rem;
-    background-color: rgba(255, 255, 255, 0.13);
-    padding: 2rem;
     border-radius: 10px;
+    width: 100%; 
+    max-width: 800px;
+    margin: 20px auto;
 }
 .pic{
     max-width: 10rem;
     max-height: 10rem;
     border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.733);
+    transition: 0.5s;
+}
+.pic:hover{
+    transform: scale(1.1);
 }
 .socialIcon{
     width: 2rem;
@@ -193,6 +223,8 @@ h3{
 #socialFooter{
     opacity: 1;
 }
+
+
 
 
 
