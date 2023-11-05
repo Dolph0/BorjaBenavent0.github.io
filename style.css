@@ -197,7 +197,8 @@ h3{
 }
 #gridPic{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     /* las dos lineas de arriba no funcionan */
     gap: 0.6rem;
     border-radius: 10px;
