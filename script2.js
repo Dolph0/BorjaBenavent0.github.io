@@ -1,3 +1,20 @@
+const numero = document.getElementById("numero");
+const llamada = document.getElementById("llamada");
+let visible = false; // Declarar la variable visible
+const arrow = document.getElementById("arrow");
+const videoBackground = document.getElementById("videoBackground");
+const llamar = document.getElementById("llamar");
+const iconoLlamada = document.getElementById("iconoLlamada");
+const leftArrow = document.getElementById("leftArrow");
+const rightArrow = document.getElementById("rightArrow");
+const videoSocial = document.getElementById("videoSocial");
+
+
+// Resto del código...
+
+
+
+
 // Identificar si estamos en la página principal o secundaria
 const isMainPage = document.getElementById("arrow") !== null;
 
@@ -67,3 +84,4 @@ if (esTelefonoMovil()) {
     }
   });
 }
+
