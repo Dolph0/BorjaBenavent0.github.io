@@ -83,6 +83,32 @@ function esTelefonoMovil() {
   }
 
 
+//   function getPics() {} //just for this demo
+// const imgs = document.querySelectorAll('#gridPic img');
+// const fullPage = document.querySelector('#fullpage');
+
+// imgs.forEach(img => {
+//   img.addEventListener('click', function() {
+//     console.log('Clic en una imagen');
+//     fullPage.style.backgroundImage = 'url(' + img.src + ')';
+//     fullPage.style.display = 'block';
+//   });
+// });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Tu código JavaScript aquí
+    const imgs = document.querySelectorAll('#gridPic img');
+    const fullPage = document.querySelector('#fullpage');
+  
+    imgs.forEach(img => {
+      img.addEventListener('click', function() {
+        fullPage.style.backgroundImage = 'url(' + img.src + ')';
+        fullPage.style.display = 'block';
+      });
+    });
+  });
+
+
 
 
 
