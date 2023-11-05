@@ -148,7 +148,6 @@ h3{
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
-    /* igual tengo que añadir position relative para num */
 }
 #socialMediaContent{
     background-color: black;
@@ -230,7 +229,8 @@ h3{
 
 #fullpage {
     display: none;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     z-index: 9999;
     top: 0;
     left: 0;
