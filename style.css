@@ -148,7 +148,14 @@ h3{
     align-items: center; 
     text-align: center; 
 }
+.socialH1{
+    font-size: 3.5em;
+}
+
+
 /* Works */
+
+
 #videoContainer{
     background-color: black;
     width: 100%;
@@ -176,32 +183,36 @@ h3{
 .video:hover{
     transform: scale(1.1);
 }
-/* Reel */
-#socialMediaContent{
-    background-color: black;
-    width: 100%; 
-    max-width: 800px; 
-    margin: 3em 2em; 
-    padding: 20px; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-}
-.socialH1{
-    font-size: 3.5em;
-}
 
-#videoSocial{
-    max-width: 14rem;
-    max-height: 26rem;
-    margin: 1rem;
+
+/* Reel */
+
+
+#reelGallery{
+    background-color: black;
+    margin: 3em 2em;
+    border-radius: 30px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+#reelGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    gap: 1rem;
+}
+.videoSocial{
+    max-width: 9rem;
+    max-height: 16rem;
     border-radius: 10px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.733);
-    border-radius: 10px;
 }
-#socialVideoContainer{
+
+/* #socialVideoContainer{
     display: flex;
     margin: 0 1rem;
     align-items: center;
@@ -213,7 +224,7 @@ h3{
 }
 .socialArrow:hover{
     transform: scale(1.2);
-}
+} */
 /* gallery */
 #gallery{
     margin: 3em 2em;
@@ -221,8 +232,9 @@ h3{
     border-radius: 30px;
     padding: 1em 2em;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    flex-direction: column;
 }
 #gridPic{
     display: grid;
@@ -331,13 +343,13 @@ h3{
     .menu-list li{
         padding: 0px 0.5rem;
     }
-    #socialMediaContent{
+    /* #socialMediaContent{
         flex-direction: column;
     
     }
     #gallery{
         flex-direction: column;
-    }
+    } */
     #worksContainer{
         grid-template-columns: 1fr;
     }
