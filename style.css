@@ -200,7 +200,7 @@ h3{
 }
 #reelGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: auto;
     gap: 0.6rem;
 }
@@ -234,7 +234,7 @@ h3{
 }
 #gridPic{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: auto;
     gap: 0.6rem;
 }
@@ -330,6 +330,12 @@ h3{
     }
     #worksContainer{
         grid-template-columns: 1fr 1fr;
+    }
+    #gridPic{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #reelGrid{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
