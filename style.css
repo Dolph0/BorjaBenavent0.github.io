@@ -150,9 +150,7 @@ h3{
     text-align: center; 
     font-family: 'Rock Salt', cursive;
 }
-/* .socialH1{
-    font-size: 2.5em;
-} */
+
 
 
 /* Works */
@@ -175,7 +173,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: auto;
-    gap: 1.3rem;
+    gap: 2rem;
 }
 .video{
     border-radius: 10px;
@@ -387,6 +385,9 @@ h3{
     }
     #gridPic{
         grid-template-columns: 1fr 1fr;
+    }
+    .socialH1{
+        font-size: 1.5rem;
     }
     
 }
